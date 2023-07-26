@@ -31,8 +31,8 @@ export default function Example() {
 			<Navigation />
 			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
 				<div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
-					{socials.map((s) => (
-						<Card>
+					{socials.map((s, i) => (
+						<Card key={i}>
 							<Link
 								href={s.href}
 								target="_blank"
@@ -44,7 +44,7 @@ export default function Example() {
 								/>
 								<span className="relative z-10 flex items-center justify-center w-12 h-12 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white group-hover:bg-zinc-900 border-zinc-500 bg-zinc-900 group-hover:border-zinc-200 drop-shadow-orange">
 									{s.icon}
-								</span>{" "}
+								</span>
 								<div className="z-10 flex flex-col items-center">
 									<span className="text-xl font-medium duration-150 lg:text-3xl text-zinc-200 group-hover:text-white font-display">
 										{s.handle}
