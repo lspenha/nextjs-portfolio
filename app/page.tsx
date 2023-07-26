@@ -4,7 +4,8 @@ import Particles from "./components/particles";
 
 const navigation = [
 	{ name: "Projetos", href: "/projects" },
-	{ name: "Contato", href: "/contact" },
+	{ name: "Tecnologias", href: "/stack" },
+	{ name: "Contato", href: "/contact" }
 ];
 
 export default function Home() {
@@ -35,7 +36,7 @@ export default function Home() {
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-sm text-zinc-500 ">
-					Oi, meu nome é Lucas, Sou um desenvolvedor frontend apaixonado por criar interfaces de usuário dinâmicas e intuitivas utilizando ReactJS.
+				Olá! 👋 Sou Lucas, um entusiasta do desenvolvimento Fullstack com uma paixão inabalável pela criação de soluções inovadoras e impactantes.
 				</h2>
 			</div>
 		</div>
