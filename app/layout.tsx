@@ -7,7 +7,7 @@ import { Analytics } from "./components/analytics";
 export const metadata: Metadata = {
 	title: {
 		default: "portfolio",
-		template: "%s | chronark.com",
+		template: "%s | dev.lspenha.com",
 	},
 	robots: {
 		index: true,
@@ -19,10 +19,6 @@ export const metadata: Metadata = {
 			"max-image-preview": "large",
 			"max-snippet": -1,
 		},
-	},
-	twitter: {
-		title: "Chronark",
-		card: "summary_large_image",
 	},
 	icons: {
 		shortcut: "/favicon.png",
