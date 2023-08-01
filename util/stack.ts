@@ -1,7 +1,7 @@
 export const fullStack = [
     {
         label: "Frontend",
-        technologies:["HTML", "CSS", "JavaScript (React)", "UI/UX design"]
+        technologies:["HTML", "CSS", "JavaScript e TypeScript (React)", "UI/UX design"]
     },
     {
         label: "Backend",
@@ -9,6 +9,10 @@ export const fullStack = [
     },
     {
         label: "Outras Ferramentas",
-        technologies:["Git"," RESTful APIs", "GraphQL", "Docker", "AWS"]
+        technologies:["Git"," RESTful APIs", "GraphQL", "Docker", "AWS", "Figma e Adobe XD"]
+    },
+    {
+        label: "Bibliotecas e Framework`s",
+        technologies:["Next.js E Nest.js","Tailwind CSS e Material ui","Formik, Yup e Zod", "Zustand e Context API", "Styled-components", "Axios e React Query", "Jest e Cypress.io", "Storybook", "CASL" , "Socket.io"]
     }
 ]
